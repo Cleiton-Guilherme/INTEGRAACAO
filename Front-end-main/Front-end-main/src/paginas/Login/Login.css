@@ -1,0 +1,77 @@
+.bg-login {
+  background-color: rgb(188, 115, 233, 0.1);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-login > img {
+  margin-left: 5rem;
+  height: 600px;
+}
+
+.card-login {
+  width: 400px;
+  height: 60vh;
+  border-radius: 24px;
+}
+
+.card-title-login {
+  font-weight: bold !important;
+  color: #6d53e6;
+}
+
+.form-input-login {
+  width: 100%;
+}
+
+.form-btn-login {
+  display: flex;
+  justify-content: center;
+  color: white !important;
+}
+
+.form-btn-login > button{
+    background-color: #6d53e6 !important;
+}
+.form-btn-login>button:hover {
+  background-color: rgb(169, 43, 223) !important;
+  color: white !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid #6d53e6 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: 1px solid #6d53e6 !important;
+}
+
+.text-decoration-none-login {
+  text-decoration: none;
+}
+
+.criarConta-login {
+  color: #6d53e6;
+  font-family: montserrat;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cadastre {
+    margin-left: 3px !important;
+}
+
+.form-input-login label {
+  color: #6d53e6 !important ;
+}
+
+.form-input-login input{
+  color: #6d53e6 !important;
+  background-color: white;
+}
+
+.form-input-login input:focus {
+  background-color: rgb(188, 115, 233, 0.1);
+}

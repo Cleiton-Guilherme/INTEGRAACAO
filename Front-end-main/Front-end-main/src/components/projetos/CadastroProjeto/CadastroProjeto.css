@@ -1,0 +1,23 @@
+.bg-cadastro-proj {
+    background-color: rgb(188, 115, 233, 0.1);
+
+}
+
+
+
+.input-projeto{
+    color: black!important;
+    margin-top: 60px !important;
+}
+
+.MuiInputBase-input{
+    color: black!important;
+}
+
+.topo {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+

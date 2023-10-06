@@ -1,0 +1,72 @@
+.container{
+  width:100%;
+  display: grid;
+  background-color: rgb(188, 115, 233, 0.1);
+}
+
+.imagem-topicos{
+  display:flex;
+  margin-top: 5%;
+  margin-left:30%;
+  justify-content:center;
+  width:40%;
+  height: 30%
+}
+
+.modal-tema{
+  display: flex;
+  justify-content:center;
+
+}
+.text-decorator-none{
+    text-decoration: none;
+}
+
+.temas{
+  margin-left: 30%;
+}
+
+.cardTema{
+  display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    width: 250px!important;
+    box-shadow: 7px 7px 13px rgba(50, 50, 50, 0.22) !important;
+    padding: 20px !important;
+    margin: 20px !important;
+    transition: all 0.3s ease-out !important;
+    border-left: 8px solid rgba(201,108,240,0.5) !important;
+    font-weight: bold;
+}
+
+.cardTema:hover {
+  transform: translateX(-5px) !important;
+}
+.botaoTema:hover{
+  color: #df146c;
+  background-color: rgba(247, 251, 251, 0.821)!important;
+  font-weight: bold!important;
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+.botaoTema{
+  background-color:rgba(201,108,240,0.5)!important;
+}
+
+.botaoDeletar:hover{
+  color: #df146c;
+  background-color: rgba(247, 251, 251, 0.821)!important;
+  font-weight: bold!important;
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.botaoDeletar{
+  display:flex;
+  background-color: rgba(62,114,240,0.5)!important;
+  justify-content:flex-end;
+  align-items: center;
+}
+.box-comentario {
+  width: 100%;
+}

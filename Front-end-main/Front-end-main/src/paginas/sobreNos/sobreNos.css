@@ -1,0 +1,62 @@
+.sobrenos {
+  width: 100%;
+  background-color: rgb(188, 115, 233, 0.1);
+}
+.sobrenos .sobrenos-container {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.sobrenos .sobrenos-container img.titulo {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+.sobrenos .sobrenos-container .text-sobrenos {
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-indent: 3ch;
+  text-align: justify;
+  line-height: 1.6;
+  margin-top: 3% !important;
+}
+
+.sobrenos .sobrenos-container .box-valores{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px !important;
+  border-left: 8px solid rgba(201,108,240,0.5) !important;
+}
+
+.sobrenos .sobrenos-container .equipe-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 3% 0;
+}
+.sobrenos .sobrenos-container .equipe-container .div-participante {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.sobrenos .sobrenos-container .equipe-container .div-participante img {
+  width: 80%;
+}
+.sobrenos .sobrenos-container .equipe-container .div-participante h4 {
+  text-align: justify;
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-indent: 3ch;
+}
+.sobrenos .sobrenos-container .equipe-container .div-participante .redes {
+  text-align: center;
+}
+.sobrenos .sobrenos-container .equipe-container .div-participante .redes a img {
+  width: 10%;
+  margin: 0 5%;
+}
+
